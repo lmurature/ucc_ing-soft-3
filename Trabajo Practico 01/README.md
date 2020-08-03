@@ -59,6 +59,7 @@ Para algunos de los puntos proveer imágenes.
 **Un pull request o PR es una petición o solicitud que realiza un usuario sobre el branch principal para que se incorporen los commits que se encuentran en el branch del usuario**
 **Se crea un branch local utilizando 'git checkout -b feature/practico1'**
 **Se sube al branch haciendo un commit y un push**
+**Se crea la PR en Github y se aprueba para mergear a master**
 
 #### 5- Mergear código con conflictos
   - Instalar alguna herramienta de comparación. Idealmente una 3-Way:
