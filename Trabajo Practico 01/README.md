@@ -25,6 +25,7 @@ Los pasos y referencias asumen el uso del sistema operativo Windows, en caso otr
     - Lista completa: https://git-scm.com/downloads/guis/
 
 **Solución**
+
 **Git se encontraba instalado en mi computadora antes de comenzar la materia** 
 
 #### 2- Crear un repositorio local y agregar archivos
@@ -33,8 +34,11 @@ Los pasos y referencias asumen el uso del sistema operativo Windows, en caso otr
   - Crear un commit y proveer un mensaje descriptivo.
 
 **Solución**
+
 **El repositorio fue creado a partir del comando 'git init'** 
+
 **Se agrega al repositorio el archivo README.md a partir del comando 'git add README.md'**
+
 **Se crea un commit con el mensaje "first commit" con el comando 'git commit -m "first commit"'** 
 
 #### 3- Crear un repositorio remoto
@@ -44,7 +48,9 @@ Los pasos y referencias asumen el uso del sistema operativo Windows, en caso otr
   - Subir los cambios locales a github.
 
 **Solución**
+
 **Se creó el mismo repositorio donde se encuentra esta información, llamado "ucc_ing-soft-3"**
+
 **Se subieron los cambios en el repositorio local utilizando el comando 'git remote add origin https://github.com/lmurature/ucc_ing-soft-3.git'**
 
 #### 4- Familiarizarse con el concepto de Pull Request
@@ -56,10 +62,15 @@ Para algunos de los puntos proveer imágenes.
   - Completar el proceso de revisión en github y mergear el PR al branch master.
 
 **Solución**
+
 **Un pull request o PR es una petición o solicitud que realiza un usuario sobre el branch principal para que se incorporen los commits que se encuentran en el branch del usuario**
+
 **Se crea un branch local utilizando 'git checkout -b feature/practico1'**
+
 **Se sube al branch haciendo un commit y un push**
-**Se crea la PR en Github y se aprueba para mergear a master**
+
+**Se crea la PR en Github y se aprueba para mergear a master [#1](https://github.com/lmurature/ucc_ing-soft-3/pull/1)**
+
 
 #### 5- Mergear código con conflictos
   - Instalar alguna herramienta de comparación. Idealmente una 3-Way:
